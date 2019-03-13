@@ -1,10 +1,10 @@
-# main trutle
+
+# main turtle
 import turtle
 
 #dave = turtle.Turtle()
 wn = turtle.Screen()
 alex = turtle.Turtle()
-
 
 def winders():
     alex.penup()
@@ -364,6 +364,101 @@ alex.forward(1)
 alex.right(90)
 alex.forward(62)
 
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(60)
+
+alex.right(180)
+alex.forward(2)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(58)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(57)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(56)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(55)
+
+alex.right(180)
+alex.forward(2)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(53)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(52)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(51)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(50)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(49)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(48)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(47)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(47)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(46)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(45)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(46)
 
 
 
@@ -375,3 +470,17 @@ alex.penup()
 alex.forward(500)
 
 turtle.done()
+
+like = -5
+while like < 1 or like > 3:
+    try:
+        like = float(input('Did you like my truck?(1 = yes 2 = No) '))
+
+    except ValueError:
+        print('1 or 2')
+
+if like == 1:
+    print('Thank you')
+
+if like == 2:
+    print('wow I see how it is no more pictures for you')
