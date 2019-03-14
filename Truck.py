@@ -1,3 +1,8 @@
+'''
+Creators: Robb Blain, Ethan Blow
+Sources: codeHS, stack overflow, Mr.Lange
+Description: Make a "turtle" draw a truck color it in and add details, then aks if you liked it
+'''
 
 # main turtle
 import turtle
@@ -449,6 +454,16 @@ alex.right(90)
 alex.forward(46)
 
 alex.left(90)
+alex.left(90)
+alex.forward(45)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(45)
+
+alex.left(90)
 alex.forward(1)
 alex.left(90)
 alex.forward(45)
@@ -458,7 +473,84 @@ alex.forward(1)
 alex.left(90)
 alex.forward(1)
 alex.right(90)
-alex.forward(46)
+alex.forward(44)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(43)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(43)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(42)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(42)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(41)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(41)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(41)
+
+alex.right(180)
+alex.forward(1)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(40)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(40)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(40)
+
+alex.left(90)
+alex.forward(1)
+alex.left(90)
+alex.forward(39)
+
+alex.right(180)
+alex.left(90)
+alex.forward(1)
+alex.right(90)
+alex.forward(39)
+
+
+
+
+
+
+
+
+
+
 
 
 
